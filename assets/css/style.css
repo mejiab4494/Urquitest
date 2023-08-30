@@ -33,16 +33,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.whatsapp {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  height: 10%;
-}
-.whatsapp:hover {
-  background-color: lightblue;
-}
+
+  @media only screen and (max-width: 600px) {
+    .mobil {
+      font-size: 0.5em;
+      padding: 0;
+    }
+  }
 
 /*--------------------------------------------------------------
 # Preloader
@@ -1473,6 +1470,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
   width: 100%;
   background: #fff;
